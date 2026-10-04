@@ -1,0 +1,11 @@
+:root { --bg: #F4E9DC; --ink: #3B2A22; --accent: #C8664A; --muted: #7a6458; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, "Avenir Next", "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+h1 { font-family: Didot, "Bodoni 72", Georgia, serif; font-weight: 400; font-size: 2.4rem; line-height: 1.2; margin: .2em 0 .4em; }
+h2 { font-size: 1.1rem; margin: 1.8em 0 .4em; color: var(--accent); }
+a { color: var(--accent); }
+.logo { border-radius: 24px; display: block; }
+.lead { font-size: 1.15rem; }
+.date, .contact, .back { color: var(--muted); font-size: .95rem; }
+.links { margin-top: 2.5em; font-weight: 600; }
